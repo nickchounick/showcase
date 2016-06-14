@@ -1,0 +1,203 @@
+html, body {
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+body{
+    /*    background-color: #f5f9fa;*/
+    background-color: #ffffff;
+    font-size: 13px;
+    font-size: 100%;
+    font-size: 1em;
+    font-family: "微软雅黑",Helvetica,Arial,"Microsoft YaHei","wenquanyi micro hei",FontAwesome,sans-serif;
+}
+.clear{ clear: both; font-size:1px; width:100%; visibility: hidden; }
+#wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; /* 最外层 DIV */
+    /*max-width: 980px;*/
+    height:auto;
+}
+header {
+    position: relative;
+    z-index: 9999999;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 97.9166667%; /* 940 ÷ 960 */
+}
+#logo{
+    width:20%;
+    float: left;
+    margin-top:10px;
+    margin-left:10px;
+    padding-bottom: 10px;
+}
+#logo img{
+    height: 40px;
+}
+.nav_box{
+    display:none;
+    float:right;
+    height: 30px;
+    width:50px;
+    border-radius: 5px;
+    border:solid 1px #e8e8e8;
+    margin-top: 15px;
+}
+.nav_line{
+    width: 60%;
+    height:3px;
+    background-color: #c13a3a;
+    margin: 5px auto;
+}
+nav {
+    float:right;  
+    /*    width: 70%;  940 ÷ 960 */
+
+    /*    margin-left: -1.0416667%;  10 ÷ 960 */
+    /*    padding-right: 1.0416667%;  10 ÷ 960 */
+    /*    padding-left: 1.0416667%;  10 ÷ 960 */
+    /*    background-repeat: repeat-x;
+        background-image: url(../img/atwiNavBg.png);*/
+    /*    border-bottom: 1px solid #bfbfbf;*/
+
+}
+nav ul li {
+    float:left;
+    margin-right:30px;
+    height: 30px;
+}
+nav ul li:last-child{
+    margin-right:0px;
+}
+nav ul li a{
+    font-size: 1em;
+    color:#797979;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:#acacac;
+}
+nav ul .on{
+    border-bottom: 2px solid #c13a3a;
+}
+#three-column li{
+    float: left;
+    width:180px;
+    height:180px;
+    /*    height:20vw;*/
+    border: 2px solid #c2c2c2;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 7%;
+    min-height:20px;
+}
+#three-column li:last-child{
+    margin-right:0px;
+}
+
+@media screen and (max-width:800px) {  
+    .nav_box{
+        display:block;
+    }
+    .nav_box :hover{
+        cursor: pointer;
+    }
+    nav ul{
+        display:none;
+    }
+    .nav ul :hover{
+        cursor: pointer;
+    }
+    .nav ul { 
+        width: 80%; 
+        padding: 5px 0; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        border: solid 1px #aaa; 
+        background: #fff url(images/menu.png) no-repeat 10px 11px; 
+        border-radius: 5px; 
+        box-shadow: 0 1px 2px rgba(0,0,0,.3); 
+    } 
+    .nav li { 
+        display: none; /* hide all items */ 
+        margin: 0; 
+    } 
+    .nav .current { 
+        display: block; /* show only currentitem */ 
+    } 
+    .nav a { 
+        display: block; 
+        padding: 5px 5px 5px 32px; 
+        text-align: left; 
+    } 
+    .nav .current a { 
+        background: none; 
+        color: #666; 
+    } 
+
+    /* on nav hover */ 
+    .nav ul:hover { 
+        background-image: none; 
+    } 
+    .nav ul:hover li { 
+        display: block; 
+        margin: 0 0 5px; 
+    } 
+    .nav ul:hover .current { 
+        background: url(images/check.png) no-repeat 10px 7px; 
+    } 
+}
+#content {
+    margin-top: 58px;
+    margin-right: 10px;
+    float: right;
+    width: 72.7083333%; /* 698 ÷ 960 */
+}
+@media screen and (max-width: 400px) {  
+    .top_right{
+        display: none;
+    }
+}
+aside{
+    border-right-color: #e8e8e8;
+    border-right-style: solid;
+    border-right-width: 2px;
+    margin-top: 58px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 22.7083333%; /* 218 ÷ 960 */
+}
+footer { 
+    clear: both;
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+    margin-top: 20px;
+    text-align: center;
+    color:#ffffff;
+    background-image:url(../img/bg-darkspace.jpg)
+}
+footer .logion{
+    padding: 40px;
+    font-family: 'Chronicle Semibold', Georgia, Times, "Times New Roman", serif;
+    font-size: 26px;
+    color: #c13a3a;
+}
+footer .logion .author{
+    color:#ffffff;
+    font-size: 15px;
+    font-family: 'Whitney Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+footer .copyright{
+    margin-top: 30px;
+    font-size: 10px;
+    font-family: 'Whitney Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-bottom: 20px;
+}
+.actGotop{position:fixed; _position:absolute; bottom:100px; right:80px; width:100px; height:130px; display:none;z-index: 99999;}
+.actGotop a,.actGotop a:link{width:150px; height:195px; display:inline-block; background:url(/themes/hjhh/img/blog7year_gotop.png) no-repeat; _background:url(images/blog7year_gotop.gif) no-repeat; outline:none;}
