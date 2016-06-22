@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="EN">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>NickChou's Showcase</title>
+        <title>JINJUU | Demo - NickChou</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,11 +12,14 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" type="text/css" href="dist/swipeslider.css">
         <link rel="stylesheet" href="component/fontawesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 
-        <link rel="stylesheet" href="css/material-photo-gallery.css">
+        <link rel="stylesheet" href="css/layout.css">
+
+        <script src="js/modernizr.custom.js"></script>
 
         <!--[if IE]>
                 <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
@@ -30,254 +33,241 @@
         <!-- Add your site or application content here -->
 
         <!-- the header and navigation -->
+
+        <div class="actGotop"><a href="javascript:;" title="Go To Top"></a></div>
+        <div class="maskbg"></div>
+        <div class="dropdownmenu">
+            <ul>
+                <li>
+                    <a href=""><i class="fa fa-home"></i> HOME</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-info-circle"></i> ABOUT</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-book"></i> MENU</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-coffee"></i> CONTACT</a>
+                </li>
+            </ul>
+            <div class="close_menu">X</div>
+        </div>
+        <section id="responsiveness" class="swipslider" style="margin-top: -5px;">
+            <ul class="sw-slides">
+                <li class="sw-slide">
+                    <img src="img/slides/banner_2.jpg" />
+                </li>
+                <li class="sw-slide">
+                    <img src="img/slides/banner_1.jpg" />
+                </li>
+                <li class="sw-slide">
+                    <img src="img/slides/banner_3.jpg" />
+                </li>
+                <li class="sw-slide">
+                    <img src="img/slides/banner_4.jpg" />
+                </li>
+            </ul>
+
+        </section>
         <div id="wrapper">
             <header>
-                <div id="logo"><img src="img/logo.png"/></div>
-                <!--div class="nav_box"><div class="nav_line"></div><div class="nav_line"></div><div class="nav_line"></div></div>
+
+                <div id="logo"><img src="img/logo2.png"/></div>
+                <div class="nav_box"><div class="nav_line"></div><div class="nav_line"></div><div class="nav_line"></div></div>
                 <nav>
                     <ul>
-                        <li class="on"><a href="#" >home</a></li>
-                        <li><a href="#">experience</a></li>
-                        <li><a href="#">education</a></li>
-                        <li><a href="#">artwork</a></li>
-                        <li><a href="#">contact</a></li>
+                        <li class="on"><a href="#" >HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">CONTACT</a></li>
                     </ul>
-                </nav-->
+                </nav>
             </header>
 
-            <div class="clear"></div>
-
-            <div class="parallax-image-wrapper"
-                 data-anchor-target="#page-intro"
-                 data-bottom-top="transform:translateY(200%)"
-                 data-top-bottom="transform:translateY(0)">
-
-                <div
-                    class="parallax-image"
-                    style="background-image:url(img/home_background1.jpg)"
-                    data-anchor-target="#page-intro"
-                    data-bottom-top="transform: translateY(-80%);"
-                    data-top-bottom="transform: translateY(80%);"
-                    >
-
-                </div>
+            <div class="vaMiddle"><img class="bannerLogo" src="img/logo.png">
+                <p>We are Hong Kong's premier modern Korean food restaurant with celebrity chef, Judy Joo, at the helm.</p>
             </div>
 
-            <div id="skrollr-body">
 
-                <div id="page-intro" class="gap" style="background-image:url(img/home_background1.jpg); ">
-                    <h1>Welcome To NickChou's Showcase</h1>
-                </div>
-
-            </div>
-
-            <div class="features-list">
-                <div id="red_subtitle"></div>
-                <h2>Who<br/>Am<br/>I?</h2>
-
-                <div data-100-bottom-top="transform: translateX(-200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1">
-                    <i class="fa fa-graduation-cap fa-5x" ></i>
-                    <h4>British Masters + Bachelor Degrees</h4>
-                </div>
-
-                <div data-100-bottom-top="transform: translateY(200px); opacity: 0" data-center-top="transform: translateY(0px); opacity: 1">
-                    <i class="fa fa-building fa-5x" ></i>
-                    <h4>Five years working experience</h4>
-                </div>
-
-                <div data-100-bottom-top="transform: translateX(200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1">
-                    <i class="fa fa-suitcase fa-5x" ></i>
-                    <h4>PM + Graphic/UI Design  +Front-end + PHP</h4>
-                </div>
+            <div class="about_index">
+                <div class="red_subtitle"></div>
+                <h2>ABOUT JINJUU</h2>
+                <p>Jinjuu, meaning 'pearl', is founded by celebrity chef Judy Joo. <br/>Located in the iconic, newly built California Tower, Jinjuu seamlessly merges traditional and contemporary styles of cuisine and design, aims to give the guests an unique Korean dining experience.</p>
+                <br/>
+                <div class="red_button_big"><a href="">ABOUT JINJUU</a></div>
 
             </div>
-
-            <div class="body-text">
-                <div class="edu" data-bottom-top="background-color: rgb(193,58,58);" data-center-center="background-color: rgb(238,238,238);"> 
-                    <div class="subtitle" data-150-bottom-center="transform: rotate(-90deg); opacity: 0" data-150-center-center="transform: rotate(0); opacity: 1">EDUCATION</div>
-                    <div data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
-                        <img src="img/northumbria-logo.png">
-                    </div>
-                    <p data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
-                        <b>MASTER OF SCIENCE with COMMENDATION in BUSINESS INFORMATION TECHNOLOGY</b><br/>
-                        Northumbria University, New Castle, England. <br/>
-                        September 2009 - October 2010 
-                    </p>
-                    <p data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
-                        <b>BACHELOR OF SCIENCE with SECOND CLASS HONOURS (Upper Division) in COMPUTING STUDIES</b> <br/>
-                        Northumbria University, New Castle, England. <br/>
-                        February 2006 - October 2008
-                    </p>
-                </div>
-                <div class="background">
-                 <br/>
-                <div class="subtitle"  data-150-bottom-center="transform: rotate(-90deg); opacity: 0" data-150-center-center="transform: rotate(0); opacity: 1">WORK EXPERIENCE</div>
-                <div id="workinfo" data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
-                    <b>Project Manager</b> <br/>
-                    Mashang Consumer Finance Co., Ltd  |  January 2015 - April 2016 <br/><br/>
-                    <div class="list"><span class="rounded-list">1</span> Planning, managing and delivering the project implementation from inception through final delivery of products. Discussing details of business needs, financial structures, procedures, design diagrams to fully understand the project.<br/>
-                        <span class="rounded-list">2</span> Covering all aspects including planning, delivering to time, budget and quality. <br/>
-                        <span class="rounded-list">3</span> Managing the project team and stakeholder relationships.
-                    </div>
-                </div>
-                <div id="workinfo" data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
-                    <b>Full Stack Web Developer + Graphic/UI Designer</b> <br/>
-                    Good Faith Load Information Ltd  |  January 2013 - January 2015 <br/><br/>
-                    <div class="list"><span class="rounded-list">1</span> Designing website banners, UI/UX and business promotional posters and flyers.
-                        <br/>
-                        <span class="rounded-list">2</span> Developing finance system by using PHP+MySQL, including designing and writing the finance calculation methods based on specific financial business needs as well as developing APIs.
-                        <br/>
-                        <span class="rounded-list">3</span> Developing front-end webpages by using html, JavaScript, JQuery, CSS+DIV and etc.
-
-                    </div>
-                </div>
-                <div id="workinfo" data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
-                    <b>PHP Developer</b> <br/>
-                    Chongqing Metarnet Technology Co., Ltd  |  February 2011 - January 2013 <br/><br/>
-                    <div class="list"><span class="rounded-list">1</span> Developing social networking website based on the ThinkPHP Framework.
-                        <br/>
-                        <span class="rounded-list">2</span> Developing websites for clients including CMS/PHP Framework secondary development such as WordPress, Joomla, CodeIgniter and etc.
-                    </div>
-                </div>
-                <div class="subtitle" data-150-bottom-center="transform: rotate(-90deg); opacity: 0" data-150-center-center="transform: rotate(0); opacity: 1">SKILLS</div>
-                <div class="skill_info" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
-                    <div class="title">Project Management</div>
-                    <div class="list">
-                        <span class="rounded-list">1</span>	1 year IT system project management experience.<br/>
-                        <span class="rounded-list">2</span>	Once I took charge of 8 financial system projects at the same time. I fully understood the consumer finance business procedures and took great control of every project.<br/>
-                        <span class="rounded-list">3</span>	I am a very focused person and I tend to be product-oriented.  I make sure whatever projects I work on, I see to completion.
-
-                    </div>
-                </div>
-
-
-                <div class="skill_info" data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
-                    <div class="title">Graphic/UI Design</div>
-                    <div class="list">
-                        <span class="rounded-list">1</span>	Excellent digital design skills by using Adobe Photoshop.<br/>
-                        <span class="rounded-list">2</span>	I'm able to design elegant website UI, banners, posters, booklets and flyers. I'm very confident with my aesthetic sense.<br/>
-                        <span class="rounded-list">3</span>	I used to work with some celebrities to design artwork for them such as Britney Spears and Chinese pop star CoCo Lee.
-                    </div>
-                </div>
-
-                <div class="skill_info" data-100-center-top="transform: scale(0.8); opacity: 0" data-100-center-center="transform: scale(1); opacity: 1">
-                    <div class="title">Programming skills</div>
-                    <div class="list">
-                        <span class="rounded-list">1</span>	Excellent front-end responsive web development skills (html5, JavaScript, JQuery, CSS+DIV).<br/>
-                        <span class="rounded-list">2</span>	Excellent PHP skill in system development. I used to develop social networking system, online shopping system, finance system, CMS as well as Framework secondary development such as CodeIgniter.<br/>
-                        <span class="rounded-list">3</span>	Agile team experience. I used to work in an agile team and also managed agile projects as a project manager.
-
-                    </div>
-                </div>
-                </div>
-
-
-            </div>
-            <div class="parallax-image-wrapper parallax-image-wrapper-100"
-                 data-anchor-target="#contact_info + .gap"
-                 data-bottom-top="transform:translate3d(0px, 200%, 0px)"
-                 data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-
-                <div
-                    class="parallax-image parallax-image-100"
-                    style="background-image:url(img/contact_background.jpg)"
-                    data-anchor-target="#contact_info + .gap"
-                    data-bottom-top="transform: translate3d(0px, -85%, 0px);"
-                    data-top-bottom="transform: translate3d(0px, 85%, 0px);"
-                    ></div>
-                <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
-            </div>
-            <div id="skrollr-body">
-                <div id="contact_info">
-                    <div class="sub_header" id="white_subtitle"></div>
-                    <h2>Contact</h2>
-                    <div id="contact_detail">
-                        Mobile: <span style="font-size:40px;">027 325 0942</span>
-                        <hr/>
-                        E-mail: nickchou131@gmail.com
-                    </div>
-
-                </div>
-                <div class="gap gap-100" style="background-image:url(img/contact_background.jpg)"></div>
-
-            </div>
-
-            <div class="m-p-g">
-
-                <div id="red_subtitle"></div>
-                <h2>Artwork</h2>
-                <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
-
-                    <img src="img/artwork/IMG_0002.jpg" data-full="img/artwork/IMG_0002.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0001.jpg" data-full="img/artwork/IMG_0001.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0003.jpg" data-full="img/artwork/IMG_0003.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0004.jpg" data-full="img/artwork/IMG_0004.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0005.jpg" data-full="img/artwork/IMG_0005.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0006.jpg" data-full="img/artwork/IMG_0006.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0007.jpg" data-full="img/artwork/IMG_0007.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0010.jpg" data-full="img/artwork/IMG_0010.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0011.jpg" data-full="img/artwork/IMG_0011.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0012.jpg" data-full="img/artwork/IMG_0012.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0013.jpg" data-full="img/artwork/IMG_0013.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0014.jpg" data-full="img/artwork/IMG_0014.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0015.jpg" data-full="img/artwork/IMG_0015.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0016.jpg" data-full="img/artwork/IMG_0016.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0017.jpg" data-full="img/artwork/IMG_0017.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0018.jpg" data-full="img/artwork/IMG_0018.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0019.jpg" data-full="img/artwork/IMG_0019.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0020.jpg" data-full="img/artwork/IMG_0020.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0021.jpg" data-full="img/artwork/IMG_0021.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0022.jpg" data-full="img/artwork/IMG_0022.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0023.jpg" data-full="img/artwork/IMG_0023.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0024.jpg" data-full="img/artwork/IMG_0024.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0009.jpg" data-full="img/artwork/IMG_0009.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0025.jpg" data-full="img/artwork/IMG_0025.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0008.jpg" data-full="img/artwork/IMG_0008.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0026.jpg" data-full="img/artwork/IMG_0026.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0027.jpg" data-full="img/artwork/IMG_0027.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0028.jpg" data-full="img/artwork/IMG_0028.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0029.jpg" data-full="img/artwork/IMG_0029.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0030.jpg" data-full="img/artwork/IMG_0030.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0031.jpg" data-full="img/artwork/IMG_0031.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0032.jpg" data-full="img/artwork/IMG_0032.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0034.jpg" data-full="img/artwork/IMG_0034.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0035.jpg" data-full="img/artwork/IMG_0035.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0036.jpg" data-full="img/artwork/IMG_0036.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0037.jpg" data-full="img/artwork/IMG_0037.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0038.jpg" data-full="img/artwork/IMG_0038.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0039.jpg" data-full="img/artwork/IMG_0039.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0040.jpg" data-full="img/artwork/IMG_0040.jpg" class="m-p-g__thumbs-img" />
-                    <img src="img/artwork/IMG_0041.jpg" data-full="img/artwork/IMG_0041.jpg" class="m-p-g__thumbs-img" />
-                </div>
-
-                <div class="m-p-g__fullscreen"></div>
-
-
-            </div>
-            <div class="clear"></div>
-            <!-- the footer -->
-            <footer>
-                <div class="logion">I do not like work, no man does. <br/>But I like what is in the work - the chance to find yourself.<div class="author">Conrad Joseph, British novelist</div></div>
-                <div class="sub_header" id="white_subtitle"></div>
-                <div class="copyright"> © 2016 Powered By NickChou. All rights reserved.</div>
-            </footer>
         </div>
 
-        <script src="js/jquery-2.1.1.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>');</script>
-        <script src="js/skrollr.min.js"></script>
-        <script src="js/material-photo-gallery.js"></script>
-        <script>
-            skrollr.init();
-            var elem = document.querySelector('.m-p-g');
 
-            document.addEventListener('DOMContentLoaded', function () {
-                var gallery = new MaterialPhotoGallery(elem);
+        <div id="cbp-so-scroller" class="cbp-so-scroller">
+            <section class="cbp-so-section">
+                <figure class="cbp-so-side cbp-so-side-left" id="openhours_left">
+                    <img src="img/bgDish_1.png" />
+                </figure>
+                <article class="cbp-so-side cbp-so-side-right" id="openhours_right">
+                    <div id="openhours_box">
+                        <div class="red_subtitle"></div>
+                        <h2><i class="fa fa-clock-o"></i> OPENING HOURS</h2>
+                        <p>
+                            We are open 7 days a week.<br/>
+                            Mon-Thurs: 12pm-1am<br/>
+                            Fri-Sat: 12pm-2am<br/>
+                            Sun: 12pm-11:30pm<br/><br/>
+                            - Happy Hour -<br/>
+                            Mon-Sat: 4pm-8pm<br/><br/>
+                            - Brunch -<br/>
+                            Sat-Sun: 12pm-3pm
+                        </p>   <br/>
+                        <div class="red_button_big"><a href="http://www.chope.co/hong-kong-restaurants/categories/restaurant/jinjuu"><i class="fa fa-bell"></i> RESERVE YOUR TABLE</a></div>
+                        <p style="font-size: 1em;"> * For private events, please contact 3755 4868</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="cbp-so-section">
+
+                <article class="cbp-so-side cbp-so-side-left" id="menu_left">
+                    <div id="menu_box">
+                        <div class="red_subtitle"></div>
+                        <h2><i class="fa fa-book"></i> OUR MENU</h2>
+                        <div id="menulist">
+                            <ul>
+
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_alacarte.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>SIGNATURE</h2></a>
+                                    </div>
+                                </li>   
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_takeaway.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>LUNCH</h2></a>
+                                    </div>
+                                </li>   
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_a_la_carte.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>A LA CARTE</h2></a>
+                                    </div>
+                                </li>
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_snack.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>BAR BITES</h2></a>
+                                    </div>
+                                </li>
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_dessert.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>DESSERT</h2></a>
+                                    </div>
+                                </li>
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_cocktail.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>DRINKS</h2></a>
+                                    </div>
+                                </li>
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_afternoontea.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>AFTERNOON TEA</h2></a>
+                                    </div>
+                                </li>
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_signature.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>TAKE AWAY</h2></a>
+                                    </div>
+                                </li>
+                                <li class="view view-tenth">
+                                    <img src="img/menu_icon_expresslunch.jpg" />
+                                    <div class="mask">
+                                        <a href=""><h2>BRUNCH</h2></a>
+                                    </div>
+                                </li>   
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <figure class="cbp-so-side cbp-so-side-right" id="menu_right">
+                    <img src="img/bgDish3.png" />
+                </figure>
+            </section>
+        </div>
+
+
+
+
+        <div class="contact_index">
+            <div class="red_subtitle"></div>
+            <h2><i class="fa fa-coffee"></i> KEEP IN TOUCH</h2>  
+            <p>
+                <i class="fa fa-phone"></i>  3755 4868<br/>
+                <i class="fa fa-envelope-o"></i> info@jinjuuhk.com<br/>
+                <i class="fa fa-map-marker"></i>  UG/F, 32 D'Aguilar Street, Central, HK <br/>
+            </p>
+            <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1845.963628748521!2d114.154255060367!3d22.28074519551003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040064ffffffe9%3A0x58fb7fcd877a6ffc!2sJinjuu!5e0!3m2!1sen!2shk!4v1466575481967" height="600" frameborder="0" style="border:0;width:95%;" allowfullscreen></iframe>
+        </div>
+        <!-- the footer -->
+        <footer>
+            <div class="footer_left">
+                <div class="copyright">
+                    © 2016 JINJUU. All Rights Reserved. <br/> This website is for demo purposes only.
+                </div>
+            </div>
+            <div class="footer_right">
+                <div class="copyright">
+                  Art Direction, Designed and Powered by NickChou. <br/> nickchou131@gmail.com 
+                </div>
+            </div>
+        </footer>
+        <div id="wrapper">
+        </div>
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="dist/swipeslider.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpScroller.js"></script>
+
+        <script type="text/javascript">
+            new cbpScroller(document.getElementById('cbp-so-scroller'));
+            $(window).load(function () {
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() >= 100) {
+                        $('.actGotop').fadeIn(300);
+                    } else {
+                        $('.actGotop').fadeOut(300);
+                    }
+                });
+
+                $('.nav_box').click(function () {
+                   $('.maskbg').slideDown("slow");
+                   $('.dropdownmenu').fadeIn(600);
+                });
+                 $('.close_menu').click(function () {
+                   $('.maskbg').fadeOut(300);
+                   $('.dropdownmenu').hide(300);
+                });
+                $('.actGotop').click(function () {
+                    $('html,body').animate({scrollTop: '0px'}, 800);
+                });
+                $('#responsiveness').swipeslider({
+                    transitionDuration: 1500,
+                    autoPlayTimeout: 4000,
+                    timingFunction: 'cubic-bezier(0.38, 0.96, 0.7, 0.07)',
+                    sliderHeight: '42%'});
             });
-      
+
         </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
+
             (function (b, o, i, l, e, r) {
                 b.GoogleAnalyticsObject = l;
                 b[l] || (b[l] =
@@ -293,6 +283,5 @@
             ga('create', 'UA-XXXXX-X', 'auto');
             ga('send', 'pageview');
         </script>
-
     </body>
 </html>
